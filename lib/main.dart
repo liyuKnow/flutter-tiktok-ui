@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tiktok_ui/src/pages/home/home.dart';
 import 'package:tiktok_ui/src/pages/images/image_screen.dart';
 
+//
 void main() {
   runApp(const MyApp());
 }
@@ -16,9 +17,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        brightness: Brightness.dark,
       ),
-      home: const ImageScreen(),
+      home: const Homepage(),
     );
   }
 }
