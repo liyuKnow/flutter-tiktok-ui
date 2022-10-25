@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tiktok_ui/src/pages/home/home.dart';
+import 'package:tiktok_ui/src/pages/images/image_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home: const ImageScreen(),
     );
   }
 }
